@@ -37,13 +37,14 @@ body{
     border: none;
     background-color: transparent;
     font-size: 20px;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 0;
 }
 .header-a{
     color: black;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 3px;
+    margin-left: 3px;
     font-size: 20px;
 }
 .header-a:hover{
