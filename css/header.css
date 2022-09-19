@@ -36,22 +36,26 @@ body{
     color: black;
     border: none;
     background-color: transparent;
-    font-size: 25px;
-    margin-right: 2%;
-    margin-left: 2%;
+    font-size: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 0;
 }
 .header-a{
     color: black;
-    margin-right: 2%;
-    margin-left: 2%;
-    font-size: 25px;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 20px;
 }
 .header-a:hover{
     color: black;
 }
 button img, .link-img{
-    width: 25px;
+    width: 20px;
     border-radius: 100px;
+}
+.link-img{
+    width: 25px;
 }
 .header-profile-btn{
     font-size: 5px;
@@ -135,7 +139,7 @@ button img, .link-img{
 @media screen and (max-width: 576px){
     .header-icons{
         min-width: 250px;
-        text-align: start;
+        text-align: center;
     }
     .header-btn{
         color: black;
