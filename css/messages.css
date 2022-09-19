@@ -15,7 +15,7 @@
 .whole-container{
     margin: auto;
     width: 65%;
-    min-width: 500px;
+    min-width: 420px;
     margin-top: 30px;
     background-color: white;
     border: 1px solid rgb(214, 214, 214);
@@ -164,5 +164,8 @@
 @media screen and (max-width: 1200px){
     .hidee{
         display: none;
+    }
+    .message-header,.list-header{
+        font-size: 15px;
     }
 }
