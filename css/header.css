@@ -17,7 +17,7 @@ body{
 }
 .header-container{
     width: 65%;
-    min-width: 450px;
+    min-width: 420px;
     margin: auto;
     padding: 10px;
 }
@@ -33,6 +33,7 @@ body{
     font-weight: lighter;
 }
 .header-btn{
+    color: black;
     border: none;
     background-color: transparent;
     font-size: 25px;
@@ -130,4 +131,27 @@ button img, .link-img{
     border-bottom: 1px solid rgb(199, 199, 199);
     width: 100%;
     margin: 15px 0;
+}
+@media screen and (max-width: 576px){
+    .header-icons{
+        min-width: 250px;
+        text-align: start;
+    }
+    .header-btn{
+        color: black;
+        font-size: 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding: 2px;
+    }
+    .header-a{
+        font-size: 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    button img{
+        margin: 0;
+        width: 20px;
+    }
+    
 }
